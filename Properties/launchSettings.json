@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NUnit_Automation_Pipeline_Try1": {
+      "commandName": "Project",
+      "commandLineArgs": "-- TestRunParameters.Parameter(name=\\\"runLocal\\\",value=\\\"true\\\")"
+    }
+  }
+}

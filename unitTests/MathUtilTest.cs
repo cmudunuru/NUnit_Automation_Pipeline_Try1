@@ -31,6 +31,8 @@ public class MathUtilTest
     {
         int expectedValue = 0;
         int total = mathUtil1.substractNumbers(2, 2);
+        //string applicationxpath = "//a[@href='{0}']";
+        //Console.WriteLine(String.Format(applicationxpath, "/add_remove_elements/"));
         Assert.AreEqual(expectedValue, total, "total are not equal");
 
     }
