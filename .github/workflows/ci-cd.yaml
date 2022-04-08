@@ -32,4 +32,4 @@ jobs:
       with:
           name: TestReport          
           path: report.html    
-          reporter: jest-nunit
+          reporter: jest-junit
