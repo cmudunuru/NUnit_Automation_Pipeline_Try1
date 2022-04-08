@@ -41,7 +41,7 @@ public class AddOrRemoveAppTest
     [SetUp]
     public void setUp()
     {
-        Boolean runLocal = true;
+        Boolean runLocal = false;
         String value = TestContext.Parameters["runLocal"];
         if (value != null)
         {
