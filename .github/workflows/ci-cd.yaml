@@ -25,3 +25,9 @@ jobs:
 
     - name: Automated Tests
       run: dotnet test -c Release --no-build
+    
+    - name: Test Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: AutomationTestReport
+        path: report.html
